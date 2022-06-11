@@ -21,7 +21,9 @@ inputBox.addEventListener("keypress", function(event){
 
 addTaskElement = () => {
     let newTaskEntry = document.createElement("h3")
-    hi.innerText = newTask;
+    let newDeleteBtn = document.createElement("button")
+    newDeleteBtn.innerHTML = "Hi"
+    newTaskEntry.innerText = newTask;
     tasksContainer.appendChild(newTaskEntry);
 }
 
