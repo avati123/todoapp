@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+*{
+    font-family: 'Jua', sans-serif;
+    color: #978be5;
+}
+
+.tasks-container{
+    background-color: rgb(232, 227, 227);
+
+}
+
+.music-container{
+    position: absolute;
+    top: 600px;
+    left: 1020px;
+}
+
+.time-container{
+    position: relative;
+    left: 350px;
+    top: 150px;
+    background-color: rgb(232, 227, 227);
+    width: 270px;
+    height:75px;
+    font-size: 57px;
+    text-align: center;
+}
+
+.pomodoro-container{
+    position: relative;
+    left: 1010px;
+    top: 40px;
+    background-color: rgb(232, 227, 227);
+    width: 400px;
+    height:75px;
+    font-size: 50px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tasks-container{
+    background-color: rgb(232, 227, 227);
+    position: fixed;
+    width: 270px;
+    border: fixed;
+    font-size: 20px;
+    margin: 10px;
+    text-align: left;
+    text-indent: 2px;
+    padding-left: 5px;
+    height: 800px;
+
+}
+
+.task-searchbox{
+    position: absolute;
+    left: 350px;
+    top: 30px;
+
+}
+
+#task-add{
+    height: 35px;
+    width: 900px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: #978be5;
+    font-size: 30px;
+    background-color: rgb(232, 227, 227);
+
+
+
+}
+
+::placeholder{
+    color: #978be5;
+
+    box-sizing: border-box;
+    text-indent: -0px;
+}
+
+.quote-container{
+    position: fixed;
+    left: 350px;
+    background-color: rgb(232, 227, 227);
+    width: 900px;
+    resize: none;
+    outline: none;
+        border: none;
+}
