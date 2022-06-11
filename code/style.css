@@ -1,55 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-*{
-    font-family: 'Jua', sans-serif;
-    color: #978be5;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jua&family=Russo+One&display=swap');
+body{
+    background: #ffffff;
+    color: #e5b0d8;
+    font-family: 'Russo One', sans-serif;
 }
 
-.tasks-container{
-    background-color: rgb(232, 227, 227);
-
-}
-
-
-
-#tasks-container{
-    background-color: rgb(232, 227, 227);
-    position: fixed;
-    width: 270px;
-    border: fixed;
-    font-size: 20px;
-    margin: 10px;
-    text-align: left;
-    text-indent: 2px;
-    padding-left: 5px;
-    height: 800px;
-
-}
-
-.task-searchbox{
+#e-menubar{
     position: absolute;
-    left: 350px;
-    top: 30px;
-
+    left: 500px;
 }
 
-#task-add{
-    height: 35px;
-    width: 900px;
-    border: none;
-    background-color: transparent;
-    resize: none;
-    outline: none;
-    color: #978be5;
-    font-size: 30px;
-    background-color: rgb(232, 227, 227);
-
-
-
+#menubar{
+    position: absolute;
+    top: 200px;
+    left:25px;
 }
 
-::placeholder{
-    color: #978be5;
-
-    box-sizing: border-box;
-    text-indent: -0px;
+#menubar button{
+    width: 220px;
+    margin: 10px;
+    border: 0px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 40px;
 }
