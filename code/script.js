@@ -49,7 +49,7 @@ addTaskElement = () => {
 allTasksPress.onclick = () =>{
     allTasksPressBtnStatus = "active";
     console.log("allTasksPress Clicked")
-    document.getElementById("allTasks").style.backgroundColor = '#e7e7e7';
+    document.getElementById("allTasks").style.backgroundColor = '#3d6688';
     checkBtnStatus()
 }
 
@@ -57,7 +57,7 @@ allTasksPress.onclick = () =>{
 schoolPress.onclick = () =>{
     schoolPressBtnStatus = "active";
     console.log("schoolPress Clicked")
-    document.getElementById("school").style.backgroundColor = '#e7e7e7';
+    document.getElementById("school").style.backgroundColor = '#3d6688';
     checkBtnStatus()
 }
 
@@ -66,7 +66,7 @@ schoolPress.onclick = () =>{
 personalPress.onclick = () =>{
     personalPressBtnStatus = "active";
     console.log("personalPress Clicked")
-    document.getElementById("personal").style.backgroundColor = '#e7e7e7';
+    document.getElementById("personal").style.backgroundColor = '#3d6688';
     checkBtnStatus()
 }
 
@@ -93,6 +93,9 @@ else if(allTasksPressBtnStatus === "active"){
     allTasksPressBtnStatus = "not-active"; //rests status
 }
 }
+
+
+
 
 
 

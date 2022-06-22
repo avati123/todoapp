@@ -1,26 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jua&family=Russo+One&display=swap');
 body{
-    background: #ffffff;
-    color: #e5b0d8;
-    font-family: 'Russo One', sans-serif;
+    background: #d1fbe4;
+    color: #6d7f75;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
 }
 
 #e-menubar{
-    position: absolute;
-    left: 500px;
+    position: fixed;
+    left: 250px;
+
 }
 
 #menubar{
-    position: absolute;
-    top: 200px;
-    left:25px;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    background-color: #addaff;
+    color: #3d6688;
+    height: 100%;
 }
 
 #menubar button{
     width: 220px;
     margin: 10px;
+    left: -40px;
     border: 0px solid #ffffff;
     background-color: #ffffff;
     border-radius: 5px;
     height: 40px;
+    color: #86a8c4;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#tags{
+    position: relative;
+    top: 200px;
+}
+
+#title{
+    position: absolute;
+    left: 10px;
+}
+
+#left-title{
+    position: relative;
+    font-size: 100px;
+    top: -80px;
+}
+
+#achieve-today{
+    position: relative;
+    top: -175px;
+    font-size: 50px;
+}
+
+#cat-title{
+    position: relative;
+    top: 220px;
+    left: 10px;
+}
+
+#task-add{
+    position: relative;
+    top: -200px;
+    width: 600px;
+    height: 50px;
+    background-color: #d1fbe4;
+    border: 0px;
+    color: #3d6688;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#task-add::placeholder{
+    color: #3d6688;
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#submit-btn{
+    position: relative;
+    top: -200px;
+    left: 0px;
+    color: #3d6688;
+    background: #d1fbe4;
+    border: 0px;
+    font-size: 50px;
+
+}
+
+*:focus {
+    outline: none;
 }
