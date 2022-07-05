@@ -1,12 +1,12 @@
 //Defining variables
 
-const tasksContainer = document.getElementById("tasks-container");
+const taskbase = document.getElementById("taskbase");
 const submit = document.getElementById("submit-btn");
 inputBox = document.getElementById("task-add");
-//Color Changing Variables
 const allTasksPress = document.getElementById("allTasks");
 const schoolPress = document.getElementById("school");
 const personalPress = document.getElementById("personal");
+const addFolderPress = document.getElementById("addFolder");
 let allTasksPressBtnStatus = "not-active";
 let schoolPressBtnStatus = "not-active";
 let personalPressBtnStatus = "not-active";
@@ -40,7 +40,7 @@ addTaskElement = () => {
     let newDeleteBtn = document.createElement("button")
     newDeleteBtn.innerHTML = "Hi"
     newTaskEntry.innerText = newTask;
-    tasksContainer.appendChild(newTaskEntry);
+    let place = taskbase.appendChild(newTaskEntry);
 }
 
 // Changes Active button background Color
@@ -92,6 +92,11 @@ else if(allTasksPressBtnStatus === "active"){
     document.getElementById("personal").style.backgroundColor = '#ffffff';
     allTasksPressBtnStatus = "not-active"; //rests status
 }
+}
+
+
+addFolderPress.onclick = function addFolderPress(){
+    alert("Please select a folder");
 }
 
 
