@@ -96,7 +96,7 @@ else if(allTasksPressBtnStatus === "active"){
 
 
 addFolderPress.onclick = function addFolderPress(){
-    alert("Please select a folder");
+    
 }
 
 
