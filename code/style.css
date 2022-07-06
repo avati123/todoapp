@@ -94,6 +94,8 @@ body{
     font-family: serif, sans-serif;
 }
 
+
+
 #submit-btn{
     position: relative;
     top: -200px;
@@ -140,15 +142,15 @@ body{
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 35px;
-    background-color: #ffffff;
+    background-color: transparent;
     font-family: Arvo;
     font-weight: 500;
 }
 
-#cat-btn-descriptions{
-    font-size: 8px;
+.cat-btn-descriptions{
+    font-size: 11.4px;
     font-family:monospace;
-    color: rgb(206, 204, 204);
+    color: #3e5b4b;
     font-weight: 100;
     position: fixed;
     left: 817px;
@@ -167,4 +169,24 @@ body{
 #personalDescription{
     position: fixed;
     top: 424px;
+}
+
+div.alltasksHoverDiv:hover{
+    background-color: rgb(241, 237, 237);
+    background-size: cover;
+}
+
+div.schoolHoverDiv:hover{
+    background-color: rgb(241, 237, 237);
+    background-size: cover;
+}
+
+div.personalHoverDiv:hover{
+    background-color: rgb(241, 237, 237);
+    background-size: cover;
+}
+
+
+.hide{
+    display: none;
 }

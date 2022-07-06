@@ -7,10 +7,13 @@ const allTasksPress = document.getElementById("allTasks");
 const schoolPress = document.getElementById("school");
 const personalPress = document.getElementById("personal");
 const addFolderPress = document.getElementById("addFolder");
+const catbtn = document.getElementById("cat-btn");
 let allTasksPressBtnStatus = "not-active";
 let schoolPressBtnStatus = "not-active";
 let personalPressBtnStatus = "not-active";
-// Creates the submit function
+const catpopup = document.getElementById("cat-popup")
+let catDefActive = false
+
 
 submit.onclick = () =>{
     addTask()
@@ -95,15 +98,6 @@ else if(allTasksPressBtnStatus === "active"){
 }
 
 
-addFolderPress.onclick = function addFolderPress(){
-    
+catbtn.onclick = () =>{
+    catpopup.classList.toggle("hide")
 }
-
-
-
-
-
-
-
-
-
